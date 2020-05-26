@@ -1,0 +1,87 @@
+<!-- Cabecalho Inicio -->
+<!DOCTYPE html>
+<html lang="pt-br" >
+	<head>
+	<meta charset="ISO-8859-1">
+	<title>Loucademia</title>
+	<link rel="stylesheet" type="text/css" href="css/loucademia_style.css">
+	
+	</head>
+	<body>
+		<header>
+			<img src="images/logo.png" />
+			<nav>
+				<div>
+					<a href ="novoAluno.html">Cadastro de Alunos</a><br>
+					<a href ="pesquisaDeAluno.html">Pesquisa de Aluno</a><br>
+					<a href ="controleDeAcesso.html">Controle de Acesso</a><br>
+					<a href ="relatorioDeEntradasESaidas.html">Relatorios de Entradas e Saidas]</a><br>
+					<a href ="relatorioDeSituacoes.html">Relatorio de Situacoes</a><br>
+				</div>
+			</nav>
+		</header>	
+	<!-- Fim do Cabecalho -->
+		<h1>Relatorio de Situacoes</h1>
+			<div id = "infoMessage">
+				(Colocar Aqui mensagem de sucesso ou erro)
+			</div>
+		<br>
+		<form>
+			<fieldset>
+				<legend>Relatorio de Situacoes</legend>
+				
+				<label for="situacao">Situacao</label><br>
+				<select id="situacao">
+					<option>Ativo</option>
+					<option>Inativo</option>
+					<option>Com Pendencia</option>
+				</select>
+			</fieldset>
+			<br>
+			<input type="button" value="Gerar Relatorio">
+		</form>
+		<br>
+		<table>
+			<tr>
+				<th>ID</th>
+				<th>Nome</th>
+				<th>Situacao</th>
+				<th>Celular</th>
+				<th>Fixo</th>
+				<th>Acao</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Carlos</td>
+				<td>Ativo</td>
+				<td>11 1111 11111</td>
+				<td>11 1111 1111</td>
+				<td>
+					<input type="button" value ="Editar">
+				</td>
+				<tr>
+				<td>2</td>
+				<td>Sheila</td>
+				<td>Inativo</td>
+				<td>22222222222</td>
+				<td>2222222221</td>
+				<td>
+					<input type="button" value ="Editar">
+				</td>
+				<tr>
+				<td>3</td>
+				<td>Carlos</td>
+				<td>Ativo</td>
+				<td>13333333333</td>
+				<td>333333333</td>
+				<td>
+					<input type="button" value ="Editar">
+				</td>
+				
+			</tr>
+		</table>
+<!-- Inicio Rodape -->	
+	</body>
+</html>
+
+<!-- Fim Rodape -->
